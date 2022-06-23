@@ -1,7 +1,11 @@
-*{margin: 0;
-padding: 0;}
+*{
+    margin: 0;
+    padding: 0;}
 
-span { color: orange;
+span { 
+    color: orange;
     font-weight: 700;
 
 }
+ul li { 
+    font-weight: 700;}
