@@ -16,10 +16,10 @@ p {
     border-radius: 8px;
 }
 span { 
-    color: rgb(0, 153, 255);
+    color: orange;
     font-weight: 700;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 ul li { 
     font-weight: 700;}
