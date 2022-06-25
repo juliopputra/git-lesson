@@ -7,10 +7,19 @@ h1 {
     padding: 8px;
     border-radius: 10px;
 }
+p {
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(82, 82, 82);
+    width: 600px;
+    border-radius: 8px;
+}
 span { 
-    color: orange;
+    color: rgb(0, 153, 255);
     font-weight: 700;
-
+    background-color: white;
+    border-radius: 3px;
 }
 ul li { 
     font-weight: 700;}

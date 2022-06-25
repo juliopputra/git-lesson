@@ -9,6 +9,15 @@
 </head>
 <body>
     <h1>BELAJAR GIT BINAR !</h1>
+    <p>command untuk configurasi</p>
+    <ul>
+        <li>git config --global user.name "your name" -> <span>set user name</span></li>
+        <li>git config --global user.email "your@mail.com" -> <span>set user email</span></li>
+        <li>git config --glboal core.editor "vim" -> <span>set default editor untuk git</span></li>
+        <li>git config --list -> <span>untuk melihat git config</span></li>
+    </ul>
+    
+    <p>command ketika masih di local computer kita</p>
     <ul>
         <li> git init --> Initialize Directory Menggunakan Git <span>( Work Directory )</span></li>
         <li> git status --> Checking Status File <span>( Active Status )</span></li>
@@ -19,9 +28,15 @@
         <li> git restore file_name --> Restore ke commit point sebelumnya <span>( Restore Point )</span></li>
         <li> git reset --hard HEAD~ --> Rollback Commit Keluar Staging <span>( Mengeluarkan file dari Staging Flow )</span></li>
         <li> git rest --soft HEAD~ --> Rollback ke Commit Sebelumnya di Staging <span>( Mengembalikan file ke posisi Staging Flow Sebelumnya )</span></li>
+    </ul>
+
+    <p>command kalau sudah bekerja dengan remote repository</p>
+    <ul>
+
         <li> git remote add remote_name git_address -->  <span>( Create Remote for Github / Gitlab Repo )</span></li>
         <li> git push remote_name local_repo_branch -->  <span>( Push to Repo Github / Gitlab )</span></li>
-
+        <li> git pull remote_name branch_name -> <span>( untuk mengambil perubahan dari remote )</span></li>
+        <li> git fetch remote_name -> <span>( untuk mensyncronkan remote repository dan local repository )</span></li>
     </ul>
 </body>
 </html>
