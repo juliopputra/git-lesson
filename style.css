@@ -1,25 +1,27 @@
 body {
-    background-color: rgb(216, 216, 216);
+  background-color: rgb(216, 216, 216);
 }
 h1 {
-    color: white;
-    background-color: orange;
-    padding: 8px;
-    border-radius: 10px;
+  width: 400px;
+  color: white;
+  background-color: orange;
+  padding: 8px;
+  border-radius: 10px;
 }
 p {
-    color: white;
-    font-weight: bolder;
-    text-transform: uppercase;
-    background-color: rgb(82, 82, 82);
-    width: 600px;
-    border-radius: 8px;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: rgb(82, 82, 82);
+  width: 600px;
+  border-radius: 8px;
 }
-span { 
-    color: orange;
-    font-weight: 700;
-    background-color: white;
-    border-radius: 5px;
+span {
+  color: orange;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
 }
-ul li { 
-    font-weight: 700;}
+ul li {
+  font-weight: 700;
+}
